@@ -1,0 +1,24 @@
+/*
+Name:Collins kipkoech 
+Registration number:CT101/G/24796/24
+Description:program to check loan eligibility 
+*/
+
+int main (){
+int age;
+int income;
+
+printf ("Enter your age: \n");
+scanf ("%d",&age);
+
+// validation complex 
+if(age>=21)
+         printf ("Enter your annual salary:\n");
+         scanf ("%d",&income);
+             if(income>=21000){
+         printf ("congratulations you qualify for a loan");}
+         else {         printf ("unfortunately we are unable to offer you a loan due to your age limit");}
+         
+         return 0;
+         
+         }       
